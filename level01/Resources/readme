@@ -1,0 +1,6 @@
+1. cat /etc/passwd
+2. scp -P 4242 level01@192.168.99.119:/etc/passwd ~/Desktop/snow-crash/level01/Resources/. Пароль level00/flag 
+3. Установить прогу john через brew НЕ на VM
+4. john passwd
+5. john --show passwd (Опционально)
+6. Видим пароль

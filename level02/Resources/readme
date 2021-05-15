@@ -1,0 +1,4 @@
+1. ls -la
+2. scp -P 4242 level02@192.168.99.119:~/level02.pcap ~/Desktop/snow-crash/level02/Resources/.
+3. tshark -z follow,tcp,hex,0 -r level02.pcap (Инфа на на сайте oracle https://docs.oracle.com/cd/E88353_01/html/E37839/tshark-1.html)
+4. После слов password переписываем пароль: ft_waNDReL0L
